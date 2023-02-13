@@ -1,0 +1,142 @@
+@font-face {
+  font-family: titleFont;
+  src: url("static/font/NotoSerif-Bold.ttf");
+}
+@font-face {
+  font-family: defaultFont;
+  src: url("static/font/NotoSerif-Regular.ttf");
+}
+body {
+  margin: 0;
+  font-family: defaultFont, serif;
+}
+
+h1 {
+  font-family: titleFont, sans-serif;
+  margin: 0;
+}
+
+.background {
+  background-image: linear-gradient(to top, rgba(19, 21, 25, 0.4), rgba(19, 21, 25, 0.4)), url("../image/bg.webp");
+  background-size: cover;
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.navBar {
+  background: white;
+  height: 75px;
+  border-bottom: solid black 1px;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.navBar .navLeft {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.navBar .navLeft .navLogo {
+  height: 85px;
+  margin-bottom: 10px;
+}
+.navBar .navRight {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  list-style-type: none;
+}
+.navBar .navRight .navItem {
+  margin-left: 25px;
+}
+.navBar .navRight .navItem .navLink {
+  font-family: titleFont, serif;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.categoryNav {
+  border: solid 1px black;
+  background-color: #b92828;
+  width: 60%;
+  padding: 0 25px 0 25px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+.categoryNav ul {
+  display: flex;
+  list-style-type: none;
+}
+.categoryNav ul a {
+  color: white;
+  text-decoration: none;
+  padding-right: 25px;
+  font-family: titleFont;
+}
+.categoryNav ul a:hover {
+  text-decoration: underline;
+  font-size: 1.02em;
+  transition: 0.5s;
+}
+
+.pageContent {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 1px;
+}
+
+.footer {
+  background-color: white;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 25px;
+  border: solid black 1px;
+  padding: 25px;
+}
+.footer section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .descriptionSection {
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.footer .logoSection {
+  margin-right: auto;
+  margin-left: auto;
+}
+.footer .logoSection img {
+  width: 250px;
+}
+.footer .logoSection img:hover {
+  transform: scale(1.02);
+}
+.footer h4 {
+  margin: 0;
+}
+.footer .col1 {
+  direction: rtl;
+}
+.footer .col1 ul {
+  text-align: end;
+  list-style-type: none;
+  max-height: 100px;
+  overflow-y: auto;
+  padding-left: 25px;
+}
+.footer .col1 ul li {
+  padding-bottom: 3px;
+}
+.footer .col1 ul li a {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

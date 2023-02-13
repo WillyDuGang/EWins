@@ -1,0 +1,15 @@
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Interdiction d'accéder au dossier src, template
+RewriteRule ^src/ - [F,L]
+RewriteRule ^template/ - [F,L]
+RewriteRule ^core/ - [F,L]
+
+# Redirection de toutes les requêtes vers index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?action=$1 [L,QSA]
+</IfModule>

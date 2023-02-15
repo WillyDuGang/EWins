@@ -1,6 +1,6 @@
 <nav class="navBar">
     <section class="firstLine">
-        <img src="static/image/eWins.png" alt="eWins logo complet">
+        <img src="../../static/image/eWins.png" alt="eWins logo complet">
         <ul>
             <li><a href="inscription">Inscription</a></li>
             <li><a href="connexion">Connexion</a></li>
@@ -8,7 +8,7 @@
     </section>
     <section class="secondLine">
         <form>
-            <button type="submit"><img src="static/image/search-icon.svg" alt="recherche icon"></button>
+            <button type="submit"><img src="../../static/image/icon/search.svg" alt="recherche icon"></button>
             <input type="text" placeholder="Rechercher un tournoi..." name="rechercherTournoi">
         </form>
         <ul>

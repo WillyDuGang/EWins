@@ -6,9 +6,21 @@
   font-family: notoRegular;
   src: url("../font/NotoSerif-Regular.ttf");
 }
+* {
+  font-size: 1.6vh;
+}
+
 body {
   margin: 0;
   font-family: notoRegular, serif;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -24,8 +36,13 @@ button:hover {
   cursor: pointer;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .background {
-  background-image: linear-gradient(to top, rgba(19, 21, 25, 0.4), rgba(19, 21, 25, 0.4)), url("../image/bg.webp");
+  background-image: linear-gradient(to top, rgba(19, 21, 25, 0.4), rgba(19, 21, 25, 0.4)), url("../image/background/bg.webp");
   background-size: cover;
   overflow-y: auto;
   width: 100%;
@@ -35,9 +52,9 @@ button:hover {
 
 .navBar {
   background: white;
-  height: 195px;
+  height: 18vh;
   font-family: notoBold, serif;
-  font-size: 25px;
+  font-size: 1.5rem;
 }
 .navBar .firstLine, .navBar .secondLine {
   border-bottom: solid black 1px;
@@ -51,41 +68,39 @@ button:hover {
   margin: 0;
 }
 .navBar .firstLine ul a, .navBar .secondLine ul a {
+  font-size: 1.5rem;
   height: 100%;
   display: flex;
   align-items: center;
 }
 .navBar .firstLine {
-  height: 120px;
-}
-.navBar .firstLine img {
-  width: 350px;
+  height: 60%;
 }
 .navBar .firstLine li a {
-  padding: 0 70px;
+  padding: 0 3.5vw;
   border: solid black 1px;
   color: black;
 }
 .navBar .secondLine {
-  height: 75px;
+  height: 40%;
   background-color: #BF3111;
 }
 .navBar .secondLine form {
   display: flex;
   align-items: center;
-  height: 60px;
+  height: 5.4vh;
   margin: auto 0;
 }
 .navBar .secondLine form button {
-  height: 60px;
-  width: 60px;
+  height: 5.4vh;
+  width: 5.4vh;
   background-color: #D9A23D;
   border: solid black 1px;
   padding: 0;
 }
 .navBar .secondLine form input {
-  height: 60px !important;
-  width: 470px;
+  height: 100%;
+  width: 24vw;
   border: solid black 1px;
   border-left: none;
   padding: 0 10px;
@@ -96,7 +111,7 @@ button:hover {
 }
 .navBar .secondLine a {
   color: white;
-  padding-left: 50px;
+  padding-left: 2.6vw;
 }
 
 .footer {
@@ -130,44 +145,163 @@ button:hover {
 
 .pageContent {
   background-color: white;
-  margin: 50px 10%;
+  margin: 4vh auto;
+  width: 80%;
   border: solid black 1px;
 }
 
 .homeMain {
-  height: calc(100vh - 195px - 50px);
+  height: 78vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
+  padding: 1vw 1vw 0;
+  box-sizing: border-box;
 }
 .homeMain .mainContent {
   display: flex;
   justify-content: center;
-  padding-top: 80px;
+  align-items: center;
 }
 .homeMain .mainContent .left {
-  margin-right: 50px;
+  margin-right: 2.6vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 .homeMain .mainContent .right {
-  padding-top: 100px;
-  margin-left: 50px;
-}
-.homeMain .mainContent .right h1 {
-  font-size: 45px;
+  margin-left: 2.6vw;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .homeMain .mainContent .right h2 {
-  padding-top: 40px;
-  padding-bottom: 110px;
+  margin-bottom: 10vh;
+  margin-top: 4vh;
 }
 .homeMain .mainContent .right a {
   background-color: #BF3111;
-  padding: 20px 75px;
+  padding: 1.8vh 4vw;
   color: white;
   font-family: notoBold, serif;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .homeMain footer {
-  margin-top: 35px;
+  text-align: center;
+}
+
+.newestTournament {
+  height: 100vh;
+  background-image: url("../image/background/background-pattern.svg");
+  background-position: center;
+  padding-top: 9vh;
+  box-sizing: border-box;
+}
+.newestTournament .newestTournamentTitle {
+  background-color: white;
+  width: 90%;
+  height: 7vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+  box-sizing: border-box;
+  border: solid black 1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 9vh;
+}
+.newestTournament .tournamentsList {
+  margin: 0 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.newestTournament .tournamentsList article {
+  margin-bottom: 9vh;
+  z-index: 1;
+}
+
+.joinOurSocial {
+  height: 100vh;
+  background-image: url("../image/illustration/join-us.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  z-index: 0;
+  text-align: center;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-direction: column;
+}
+.joinOurSocial .socialIcons {
+  width: 90%;
+  margin-top: 7.5vh;
+  margin-bottom: 18vh;
+  height: 14vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.tournamentArticle {
+  width: 20vw;
+  background-color: white;
+  border: solid black 1px;
+}
+.tournamentArticle .tournamentImage {
+  height: 25vh;
+}
+.tournamentArticle .tournamentImage img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+.tournamentArticle p {
+  margin: 0;
+}
+.tournamentArticle header, .tournamentArticle .participant, .tournamentArticle .dates {
+  padding: 1vw;
+  color: black;
+}
+.tournamentArticle .participant, .tournamentArticle .dates {
+  font-family: notoBold, serif;
+}
+.tournamentArticle header {
+  border-top: solid black 1px;
+  border-bottom: solid black 1px;
+  display: flex;
+  justify-content: space-between;
+}
+.tournamentArticle header .right {
+  color: #2DCCFF;
+}
+.tournamentArticle header .right .statusCircle {
+  margin-bottom: -2px;
+  display: inline-block;
+  width: 1.6vh;
+  height: 1.6vh;
+  border-radius: 50%;
+  background-color: #2DCCFF;
+}
+.tournamentArticle .participant {
+  border-bottom: solid black 1px;
+}
+.tournamentArticle .participant progress {
+  height: 2vh;
+  width: 100%;
+  border-radius: 0;
+  border: solid black 1px;
+}
+.tournamentArticle .participant progress::-webkit-progress-bar {
+  background-color: #F0F0F2;
+}
+.tournamentArticle .participant progress::-webkit-progress-value {
+  background-color: #D9A23D;
+  border-right: solid black 1px;
+}
+.tournamentArticle .dates {
+  display: flex;
+  justify-content: space-between;
   text-align: center;
 }
 

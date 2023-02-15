@@ -2,7 +2,7 @@
 
 namespace src\controller;
 
-class Accueil implements Controller
+class Accueil implements IController
 {
     public function __construct($method, $params = [], $queries = [])
     {

@@ -6,8 +6,8 @@
   font-family: notoRegular;
   src: url("../font/NotoSerif-Regular.ttf");
 }
-* {
-  font-size: 1.6vh;
+html {
+  font-size: calc(8px + 0.390625vw);
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.7rem;
 }
 
 h2 {
@@ -67,6 +67,13 @@ img {
   display: flex;
   margin: 0;
 }
+.navBar .firstLine ul .backgroundBrown, .navBar .secondLine ul .backgroundBrown {
+  background-color: #D9984A;
+  color: white !important;
+  border-right: solid black 1px;
+  border-left: solid black 1px;
+  font-size: 1.1em;
+}
 .navBar .firstLine ul a, .navBar .secondLine ul a {
   font-size: 1.5rem;
   height: 100%;
@@ -94,7 +101,7 @@ img {
 .navBar .secondLine form button {
   height: 5.4vh;
   width: 5.4vh;
-  background-color: #D9A23D;
+  background-color: #D9984A;
   border: solid black 1px;
   padding: 0;
 }
@@ -105,13 +112,20 @@ img {
   border-left: none;
   padding: 0 10px;
   box-sizing: border-box;
+  font-size: 1.2rem;
+}
+.navBar .secondLine form input::placeholder {
+  font-size: 1.2rem;
 }
 .navBar .secondLine form input:focus {
   outline: unset;
 }
-.navBar .secondLine a {
+.navBar .secondLine li {
+  padding-left: 0.6vw;
+}
+.navBar .secondLine li a {
+  padding: 0 1vw;
   color: white;
-  padding-left: 2.6vw;
 }
 
 .footer {
@@ -174,6 +188,9 @@ img {
   margin-left: 2.6vw;
   margin-top: auto;
   margin-bottom: auto;
+}
+.homeMain .mainContent .right h1 {
+  font-size: 2.8rem;
 }
 .homeMain .mainContent .right h2 {
   margin-bottom: 10vh;
@@ -276,7 +293,7 @@ img {
   color: #2DCCFF;
 }
 .tournamentArticle header .right .statusCircle {
-  margin-bottom: -2px;
+  margin-bottom: -0.15vh;
   display: inline-block;
   width: 1.6vh;
   height: 1.6vh;
@@ -303,6 +320,87 @@ img {
   display: flex;
   justify-content: space-between;
   text-align: center;
+}
+
+.pageHeader {
+  height: 16vh;
+  background-color: #D9984A;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2.6vw;
+}
+
+.imageFormSection {
+  display: flex;
+  margin: 2.6vw;
+}
+.imageFormSection .imageSection {
+  height: 66vh;
+  border-right: solid black 1px;
+  width: 50%;
+}
+.imageFormSection .imageSection img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.imageFormSection .formSection {
+  width: 50%;
+  padding-left: 2.6vw;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.imageFormSection .formSection header {
+  margin-bottom: 2.8vh;
+}
+.imageFormSection .formSection header a {
+  color: black;
+}
+.imageFormSection .formSection header p {
+  margin: 0;
+}
+.imageFormSection .formSection form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.imageFormSection .formSection form .formGroup {
+  width: 100%;
+  margin-bottom: 2.8vh;
+  display: flex;
+  flex-direction: column;
+}
+.imageFormSection .formSection form .formGroup input[type=text] {
+  width: 100%;
+  height: 3vh;
+  border-radius: 0;
+  border: solid black 1px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.imageFormSection .formSection form .formGroup textarea {
+  padding: 10px;
+}
+.imageFormSection .formSection form .formGroup input[type=text]:focus, .imageFormSection .formSection form .formGroup textarea:focus {
+  outline: unset;
+}
+.imageFormSection .formSection form .submitButton {
+  width: 100%;
+  font-size: 2em;
+  font-family: notoBold, serif;
+  height: 5.5vh;
+  background-color: #BF3111;
+  color: white;
+  border: solid black 1px;
+}
+
+.registerForm .formGroup:nth-child(-n+4) {
+  width: 45% !important;
 }
 
 /*# sourceMappingURL=style.css.map */

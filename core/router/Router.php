@@ -17,6 +17,10 @@ class Router
      */
     private $routes = [];
 
+    /**
+     * @var string
+     */
+    static private $currentPath;
 
     /**
      * @param string $path
@@ -51,6 +55,7 @@ class Router
             $route = $this->getErrorPageRoute();
         }
         $controllerClass = $route->getController();
+        $_GET['currentPath'] = $route->getPath();
         new $controllerClass($method, $params, $_GET);
     }
 

@@ -2,11 +2,11 @@
 
 namespace src\controller;
 
-class Inscription implements IController
+class Connexion implements IController
 {
 
     public function __construct($method, $params = [], $queries = [])
     {
-        require ('template/inscription.php');
+        require ('template/connexion.php');
     }
 }

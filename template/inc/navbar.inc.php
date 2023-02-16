@@ -1,9 +1,26 @@
 <nav class="navBar">
     <section class="firstLine">
-        <img src="../../static/image/eWins.png" alt="eWins logo complet">
+        <a href="/"><img src="../../static/image/eWins.png" alt="eWins logo complet"></a>
         <ul>
-            <li><a href="inscription">Inscription</a></li>
-            <li><a href="connexion">Connexion</a></li>
+            <li>
+
+                <a href="inscription"
+                    <?php if ($currentPath === 'inscription'): ?>
+                        class="backgroundBrown"
+                    <?php endif; ?>
+                >
+                    Inscription
+                </a>
+            </li>
+            <li>
+                <a href="connexion"
+                    <?php if ($currentPath === 'connexion'): ?>
+                        class="backgroundBrown"
+                    <?php endif; ?>
+                >
+                    Connexion
+                </a>
+            </li>
         </ul>
     </section>
     <section class="secondLine">
@@ -12,9 +29,33 @@
             <input type="text" placeholder="Rechercher un tournoi..." name="rechercherTournoi">
         </form>
         <ul>
-            <li><a href="inscription">Accueil</a></li>
-            <li><a href="inscription">Tournois</a></li>
-            <li><a href="inscription">Contact</a></li>
+            <li>
+                <a href="/"
+                    <?php if ($currentPath === ''): ?>
+                        class="backgroundBrown"
+                    <?php endif;
+                    ?>
+                >
+                    Accueil</a></li>
+            <li>
+                <a href="tournois"
+                    <?php if ($currentPath === 'tournois'): ?>
+                        class="backgroundBrown"
+                    <?php endif;
+                    ?>
+                >
+                    Tournois
+                </a>
+            </li>
+            <li>
+                <a href="contact"
+                    <?php if ($currentPath === 'contact'): ?>
+                        class="backgroundBrown"
+                    <?php endif;
+                    ?>
+                >
+                    Contact</a>
+            </li>
         </ul>
     </section>
 </nav>

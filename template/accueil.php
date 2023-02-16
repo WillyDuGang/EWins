@@ -18,7 +18,7 @@
         </section>
     </section>
     <footer>
-        <img src="../static/image/icon/heart.svg" alt="heart">
+        <img src="../static/image/icon/heart.svg" alt="coeur">
         <h2>Notre plateforme a déjà accueilli 45 tournois jusqu'à présent, avec encore plus à venir !</h2>
     </footer>
 </main>
@@ -26,7 +26,7 @@
 
     <header class="newestTournamentTitle">
         <img src="../static/image/icon/right-arrows.svg" alt="flèches droites">
-        <h2>Nouveax tournois</h2>
+        <h2>Nouveaux tournois</h2>
         <img src="../static/image/icon/left-arrows.svg" alt="flèches gauches">
     </header>
     <section class="tournamentsList">

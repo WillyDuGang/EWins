@@ -7,6 +7,11 @@ class Connexion implements IController
 
     public function __construct($method, $params = [], $queries = [])
     {
-        require ('template/connexion.php');
+        switch ($method){
+            case 'POST':
+                break;
+            default:
+                require ('template/connexion.php');
+        }
     }
 }

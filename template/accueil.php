@@ -31,7 +31,7 @@
     </header>
     <section class="tournamentsList">
         <?php for($i = 0; $i < 5; $i++){
-            require('inc/tournament-article.inc..php');
+            require('inc/tournament-article.inc.php');
         } ?>
     </section>
 </section>

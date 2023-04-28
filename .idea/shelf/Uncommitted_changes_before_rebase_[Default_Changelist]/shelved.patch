@@ -1,0 +1,196 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"e1109df0-4a6f-4a66-a73b-445f5f9dcda2\" name=\"Default Changelist\" comment=\"\">\r\n      <change afterPath=\"$PROJECT_DIR$/.env\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.htaccess\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/codestream.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/dataSources.local.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/dataSources.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/dataSources/2d29e381-453d-49fa-8c93-5a7ebefb6a37.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/dataSources/2d29e381-453d-49fa-8c93-5a7ebefb6a37/storage_v2/_src_/schema/information_schema.FNRwLQ.meta\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/discord.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/modules.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/php.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sqldialects.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/vcs.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/www.iml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/bd.sql\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/core/AutoLoader.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/core/router/Route.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/core/router/Router.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/delDb.sql\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/index.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/controller/Accueil.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/controller/Controller.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/lib/guard/IGuard.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/css/style.css\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/css/style.css.map\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/css/style.scss\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/favicon.ico\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/font/NotoSerif-Bold.ttf\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/font/NotoSerif-Regular.ttf\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/image/bg.webp\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/image/eW.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/static/image/eWins.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/template/accueil.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/template/layout.php\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/-.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/-@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Accueil.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Accueil@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/AdobeColor-Business articles.jpeg\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Background.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Background@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Connexion.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Connexion@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois Cloturé (joueur) – 2.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois Cloturé (joueur) – 2@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 3.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 3@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 4.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 4@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 5.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 5@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois ouvert (joueur) – 1.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois ouvert (joueur) – 1@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois ouvert (joueur).png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Consulter tournois ouvert (joueur)@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Contacter.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Contacter@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Editer profil.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Editer profil@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Inscription.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Inscription@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Lister tournois (Organisateur) – 2.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Lister tournois (Organisateur) – 2@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Lister tournois (anonyme).png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Lister tournois (anonyme)@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Lister tournois (joueur) – 1.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Lister tournois (joueur) – 1@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Mot de passe oublié.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Mot de passe oublié@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Supprimer profil.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Supprimer profil@2x.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Web 1920 – 2.png\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/websiteMockup/Web 1920 – 2@2x.png\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"ComposerSettings\" synchronizationState=\"SYNCHRONIZE\">\r\n    <execution />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"SCSS File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/core/router/Router.php\" root0=\"FORCE_HIGHLIGHTING\" root1=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"PhpServers\">\r\n    <servers>\r\n      <server host=\"localhost\" id=\"e92e4858-795a-4d89-aaae-b5c36704ec9d\" name=\"Unnamed\" />\r\n    </servers>\r\n  </component>\r\n  <component name=\"PhpWebServerValidation\" path_to_validation_script=\"C:\\wamp64\\www\" selected_validation_type=\"LOCAL\" web_path_to_validation_script=\"http://127.0.0.1/\" />\r\n  <component name=\"ProjectId\" id=\"ZbhQiSVeqWFbwq4Jhp5w2BYRmHK\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"WebServerToolWindowFactoryState\": \"false\",\r\n    \"app.teamhub.trackedBranches\": \"\",\r\n    \"last_opened_file_path\": \"C:/wamp64/www\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"php.override.implement.member.chooser.php.doc\": \"NONE\",\r\n    \"settings.editor.selected.configurable\": \"reference.webide.settings.project.settings.php.debug\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  },\r\n  \"keyToStringList\": {\r\n    \"DatabaseDriversLRU\": [\r\n      \"mysql\"\r\n    ]\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\wamp64\\www\\static\\image\" />\r\n      <recent name=\"C:\\wamp64\\www\\static\\font\" />\r\n      <recent name=\"C:\\wamp64\\www\\static\" />\r\n      <recent name=\"C:\\wamp64\\www\\core\\router\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\wamp64\\www\\websiteMockup\" />\r\n      <recent name=\"C:\\wamp64\\www\" />\r\n      <recent name=\"C:\\wamp64\\www\\core\\router\" />\r\n      <recent name=\"C:\\wamp64\\www\\src\\controller\" />\r\n      <recent name=\"C:\\wamp64\\www\\EVAL_V1\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Shell Script.sass\">\r\n    <configuration default=\"true\" type=\"ComposerRunConfigurationType\" factoryName=\"Composer Script\">\r\n      <option name=\"commandLineParameters\" value=\"\" />\r\n      <option name=\"pathToComposerJson\" value=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"HttpClient.HttpRequestRunConfigurationType\" factoryName=\"HTTP Request\" path=\"\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"PhpBehatConfigurationType\">\r\n      <BehatRunner scenario=\"\" />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"Unnamed\" type=\"PhpBuiltInWebServerConfigurationType\" factoryName=\"PHP Built-in Web Server\" nameIsGenerated=\"true\" document_root=\"$PROJECT_DIR$\" port=\"8888\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"PhpLocalRunConfigurationType\" factoryName=\"PHP Console\">\r\n      <CommandLine>\r\n        <PhpTestInterpreterSettings>\r\n          <option name=\"interpreterName\" value=\"PHP 7.4\" />\r\n        </PhpTestInterpreterSettings>\r\n      </CommandLine>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"index.php\" type=\"PhpLocalRunConfigurationType\" factoryName=\"PHP Console\" temporary=\"true\" path=\"$PROJECT_DIR$/index.php\">\r\n      <CommandLine>\r\n        <PhpTestInterpreterSettings>\r\n          <option name=\"interpreterName\" value=\"PHP 7.4\" />\r\n        </PhpTestInterpreterSettings>\r\n      </CommandLine>\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"PhpRemoteDebugRunConfigurationType\" factoryName=\"PHP Remote Debug\" filter_connections=\"NOT_FILTER\">\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <configuration name=\"sass\" type=\"ShConfigurationType\">\r\n      <option name=\"SCRIPT_TEXT\" value=\"sass --watch style.scss:style.css\" />\r\n      <option name=\"INDEPENDENT_SCRIPT_PATH\" value=\"true\" />\r\n      <option name=\"SCRIPT_PATH\" value=\"$PROJECT_DIR$\" />\r\n      <option name=\"SCRIPT_OPTIONS\" value=\"\" />\r\n      <option name=\"INDEPENDENT_SCRIPT_WORKING_DIRECTORY\" value=\"false\" />\r\n      <option name=\"SCRIPT_WORKING_DIRECTORY\" value=\"$PROJECT_DIR$/static/css\" />\r\n      <option name=\"INDEPENDENT_INTERPRETER_PATH\" value=\"true\" />\r\n      <option name=\"INTERPRETER_PATH\" value=\"\" />\r\n      <option name=\"INTERPRETER_OPTIONS\" value=\"\" />\r\n      <option name=\"EXECUTE_IN_TERMINAL\" value=\"true\" />\r\n      <option name=\"EXECUTE_SCRIPT_FILE\" value=\"false\" />\r\n      <envs />\r\n      <method v=\"2\" />\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"PHP Built-in Web Server.Unnamed\" />\r\n      <item itemvalue=\"PHP Script.index.php\" />\r\n      <item itemvalue=\"Shell Script.sass\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"PHP Script.index.php\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration>C:\\Users\\123\\AppData\\Roaming\\Subversion</configuration>\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"e1109df0-4a6f-4a66-a73b-445f5f9dcda2\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1291936173625</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1291936173625</updated>\r\n      <workItem from=\"1291936174656\" duration=\"264000\" />\r\n      <workItem from=\"1291935606125\" duration=\"3247000\" />\r\n      <workItem from=\"1291935606265\" duration=\"2176000\" />\r\n      <workItem from=\"1291935607375\" duration=\"31000\" />\r\n      <workItem from=\"1291946562250\" duration=\"323000\" />\r\n      <workItem from=\"1291936346750\" duration=\"4063000\" />\r\n      <workItem from=\"1291935608594\" duration=\"881000\" />\r\n      <workItem from=\"1667943433516\" duration=\"17000\" />\r\n      <workItem from=\"1291935618844\" duration=\"189000\" />\r\n      <workItem from=\"1667943668302\" duration=\"59000\" />\r\n      <workItem from=\"1291935608313\" duration=\"1750000\" />\r\n      <workItem from=\"1291935608313\" duration=\"8815000\" />\r\n      <workItem from=\"1291935609078\" duration=\"7482000\" />\r\n      <workItem from=\"1291935608781\" duration=\"4220000\" />\r\n      <workItem from=\"1291935608797\" duration=\"3963000\" />\r\n      <workItem from=\"1291935609109\" duration=\"7664000\" />\r\n      <workItem from=\"1668212423955\" duration=\"955000\" />\r\n      <workItem from=\"1668216829880\" duration=\"3124000\" />\r\n      <workItem from=\"1668603109421\" duration=\"16000\" />\r\n      <workItem from=\"1668603190385\" duration=\"314000\" />\r\n      <workItem from=\"1668603543454\" duration=\"4696000\" />\r\n      <workItem from=\"1291935607687\" duration=\"7850000\" />\r\n      <workItem from=\"1291935608235\" duration=\"4337000\" />\r\n      <workItem from=\"1291935609062\" duration=\"90000\" />\r\n      <workItem from=\"1291935609969\" duration=\"7000\" />\r\n      <workItem from=\"1291935609531\" duration=\"796000\" />\r\n      <workItem from=\"1291935623484\" duration=\"4137000\" />\r\n      <workItem from=\"1291935612516\" duration=\"1507000\" />\r\n      <workItem from=\"1291935610703\" duration=\"6752000\" />\r\n      <workItem from=\"1291935608688\" duration=\"5370000\" />\r\n      <workItem from=\"1291935613469\" duration=\"13204000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"php\">\r\n          <url>file://$PROJECT_DIR$/src/controller/Tournoi.php</url>\r\n          <line>13</line>\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"php\">\r\n          <url>file://$PROJECT_DIR$/index.php</url>\r\n          <line>2</line>\r\n          <option name=\"timeStamp\" value=\"2\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\r\n    <expand />\r\n    <select />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/www$index_php__1_.dat\" NAME=\"index.php (1) Coverage Results\" MODIFIED=\"1291936145562\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"WipCoverageRunner\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\r\n    <SUITE FILE_PATH=\"coverage/www@www.xml\" NAME=\"www Coverage Results\" MODIFIED=\"1291935640640\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"PhpCoverage\" COVERAGE_BY_TEST_ENABLED=\"false\" COVERAGE_TRACING_ENABLED=\"false\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 24f8c43d9f96f457735c4eb6c6f300fcb3d78897)
++++ b/.idea/workspace.xml	(date 1676268988323)
+@@ -4,82 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="e1109df0-4a6f-4a66-a73b-445f5f9dcda2" name="Default Changelist" comment="">
+-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/codestream.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2d29e381-453d-49fa-8c93-5a7ebefb6a37.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/2d29e381-453d-49fa-8c93-5a7ebefb6a37/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/www.iml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/bd.sql" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/core/AutoLoader.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/core/router/Route.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/core/router/Router.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/delDb.sql" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/controller/Accueil.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/controller/Controller.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/lib/guard/IGuard.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/css/style.css.map" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/css/style.scss" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/favicon.ico" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/font/NotoSerif-Bold.ttf" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/font/NotoSerif-Regular.ttf" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/image/bg.webp" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/image/eW.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/static/image/eWins.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/template/accueil.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/template/layout.php" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/-.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/-@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Accueil.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Accueil@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/AdobeColor-Business articles.jpeg" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Background.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Background@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Connexion.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Connexion@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois Cloturé (joueur) – 2.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois Cloturé (joueur) – 2@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 3.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 3@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 4.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 4@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 5.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois fermé (joueur) – 5@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois ouvert (joueur) – 1.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois ouvert (joueur) – 1@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois ouvert (joueur).png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Consulter tournois ouvert (joueur)@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Contacter.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Contacter@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Editer profil.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Editer profil@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Inscription.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Inscription@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Lister tournois (Organisateur) – 2.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Lister tournois (Organisateur) – 2@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Lister tournois (anonyme).png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Lister tournois (anonyme)@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Lister tournois (joueur) – 1.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Lister tournois (joueur) – 1@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Mot de passe oublié.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Mot de passe oublié@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Supprimer profil.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Supprimer profil@2x.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Web 1920 – 2.png" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/websiteMockup/Web 1920 – 2@2x.png" afterDir="false" />
+-    </list>
++    <list default="true" id="e1109df0-4a6f-4a66-a73b-445f5f9dcda2" name="Default Changelist" comment="Finished router and autoloader system, completed site mockup, added SQL database file, and started layout development" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -116,22 +41,22 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "WebServerToolWindowFactoryState": "false",
+-    "app.teamhub.trackedBranches": "",
+-    "last_opened_file_path": "C:/wamp64/www",
+-    "nodejs_package_manager_path": "npm",
+-    "php.override.implement.member.chooser.php.doc": "NONE",
+-    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php.debug",
+-    "vue.rearranger.settings.migration": "true"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
++    &quot;app.teamhub.trackedBranches&quot;: &quot;&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/wamp64/www&quot;,
++    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
++    &quot;php.override.implement.member.chooser.php.doc&quot;: &quot;NONE&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php.debug&quot;,
++    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+   },
+-  "keyToStringList": {
+-    "DatabaseDriversLRU": [
+-      "mysql"
++  &quot;keyToStringList&quot;: {
++    &quot;DatabaseDriversLRU&quot;: [
++      &quot;mysql&quot;
+     ]
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\wamp64\www\static\image" />
+@@ -249,8 +174,16 @@
+       <workItem from="1291935612516" duration="1507000" />
+       <workItem from="1291935610703" duration="6752000" />
+       <workItem from="1291935608688" duration="5370000" />
+-      <workItem from="1291935613469" duration="13204000" />
++      <workItem from="1291935613469" duration="13563000" />
+     </task>
++    <task id="LOCAL-00001" summary="Finished router and autoloader system, completed site mockup, added SQL database file, and started layout development">
++      <created>1291949316828</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1291949316828</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -261,11 +194,27 @@
+       <map>
+         <entry key="MAIN">
+           <value>
+-            <State />
++            <State>
++              <option name="FILTERS">
++                <map>
++                  <entry key="branch">
++                    <value>
++                      <list>
++                        <option value="main" />
++                      </list>
++                    </value>
++                  </entry>
++                </map>
++              </option>
++            </State>
+           </value>
+         </entry>
+       </map>
+     </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="Finished router and autoloader system, completed site mockup, added SQL database file, and started layout development" />
++    <option name="LAST_COMMIT_MESSAGE" value="Finished router and autoloader system, completed site mockup, added SQL database file, and started layout development" />
+   </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+Index: .idea/codestream.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"CodeStream\">\r\n    <option name=\"webViewContext\" value=\"{&quot;chatProviderAccess&quot;:&quot;strict&quot;,&quot;currentTeamId&quot;:&quot;&quot;,&quot;currentStreamId&quot;:&quot;&quot;,&quot;pullRequestCheckoutBranch&quot;:false,&quot;isRepositioning&quot;:false,&quot;onboardStep&quot;:0,&quot;panelStack&quot;:[&quot;landing-redirect&quot;],&quot;hasFocus&quot;:false,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkTagFilter&quot;:&quot;all&quot;,&quot;codemarkBranchFilter&quot;:&quot;all&quot;,&quot;codemarkAuthorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;codemarksWrapComments&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;newUserEntry&quot;,&quot;params&quot;:{}},&quot;spatialViewShowPRComments&quot;:false,&quot;currentPullRequestNeedsRefresh&quot;:{&quot;needsRefresh&quot;:false,&quot;providerId&quot;:&quot;&quot;,&quot;pullRequestId&quot;:&quot;&quot;},&quot;__teamless__&quot;:{&quot;selectedRegion&quot;:&quot;us&quot;},&quot;sessionStart&quot;:1676255131590}\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/codestream.xml b/.idea/codestream.xml
+--- a/.idea/codestream.xml	(revision 24f8c43d9f96f457735c4eb6c6f300fcb3d78897)
++++ b/.idea/codestream.xml	(date 1676268988334)
+@@ -1,6 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="CodeStream">
+-    <option name="webViewContext" value="{&quot;chatProviderAccess&quot;:&quot;strict&quot;,&quot;currentTeamId&quot;:&quot;&quot;,&quot;currentStreamId&quot;:&quot;&quot;,&quot;pullRequestCheckoutBranch&quot;:false,&quot;isRepositioning&quot;:false,&quot;onboardStep&quot;:0,&quot;panelStack&quot;:[&quot;landing-redirect&quot;],&quot;hasFocus&quot;:false,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkTagFilter&quot;:&quot;all&quot;,&quot;codemarkBranchFilter&quot;:&quot;all&quot;,&quot;codemarkAuthorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;codemarksWrapComments&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;newUserEntry&quot;,&quot;params&quot;:{}},&quot;spatialViewShowPRComments&quot;:false,&quot;currentPullRequestNeedsRefresh&quot;:{&quot;needsRefresh&quot;:false,&quot;providerId&quot;:&quot;&quot;,&quot;pullRequestId&quot;:&quot;&quot;},&quot;__teamless__&quot;:{&quot;selectedRegion&quot;:&quot;us&quot;},&quot;sessionStart&quot;:1676255131590}" />
++    <option name="webViewContext" value="{&quot;chatProviderAccess&quot;:&quot;strict&quot;,&quot;currentTeamId&quot;:&quot;&quot;,&quot;currentStreamId&quot;:&quot;&quot;,&quot;pullRequestCheckoutBranch&quot;:false,&quot;isRepositioning&quot;:false,&quot;onboardStep&quot;:0,&quot;panelStack&quot;:[&quot;landing-redirect&quot;],&quot;hasFocus&quot;:false,&quot;channelFilter&quot;:&quot;all&quot;,&quot;channelsMuteAll&quot;:false,&quot;codemarkFileFilter&quot;:&quot;all&quot;,&quot;codemarkTypeFilter&quot;:&quot;all&quot;,&quot;codemarkTagFilter&quot;:&quot;all&quot;,&quot;codemarkBranchFilter&quot;:&quot;all&quot;,&quot;codemarkAuthorFilter&quot;:&quot;all&quot;,&quot;codemarksFileViewStyle&quot;:&quot;inline&quot;,&quot;codemarksShowArchived&quot;:false,&quot;codemarksShowResolved&quot;:false,&quot;codemarksWrapComments&quot;:false,&quot;showFeedbackSmiley&quot;:true,&quot;route&quot;:{&quot;name&quot;:&quot;newUserEntry&quot;,&quot;params&quot;:{}},&quot;spatialViewShowPRComments&quot;:false,&quot;currentPullRequestNeedsRefresh&quot;:{&quot;needsRefresh&quot;:false,&quot;providerId&quot;:&quot;&quot;,&quot;pullRequestId&quot;:&quot;&quot;},&quot;__teamless__&quot;:{&quot;selectedRegion&quot;:&quot;us&quot;},&quot;sessionStart&quot;:1676268966605}" />
+   </component>
+ </project>
+\ No newline at end of file

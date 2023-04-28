@@ -16,8 +16,9 @@ use src\controller\Contact;
 (new AutoLoader())->init();
 
 $router = new Router();
-$router->add('', [Router::METHODS['GET']], Accueil::class, true);
-$router->add('inscription', [Router::METHODS['GET']], Inscription::class);
+$router->add('', [Router::METHODS['GET']], Accueil::class);
+$router->add('inscription', [Router::METHODS['GET'], Router::METHODS['POST']], Inscription::class);
 $router->add('connexion', [Router::METHODS['GET']], Connexion::class);
 $router->add('contact', [Router::METHODS['GET']], Contact::class);
 $router->call();
+

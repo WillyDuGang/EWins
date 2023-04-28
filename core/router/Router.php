@@ -2,6 +2,8 @@
 
 namespace core\router;
 
+use src\lib\response\RedirectResponse;
+
 class Router
 {
     const METHODS = [
@@ -16,11 +18,6 @@ class Router
      * @var Route[]
      */
     private $routes = [];
-
-    /**
-     * @var string
-     */
-    static private $currentPath;
 
     /**
      * @param string $path
@@ -47,12 +44,15 @@ class Router
             ? self::METHODS[$_SERVER['REQUEST_METHOD']]
             : 0;
         $matchedRoute = $this->matchRoutes($action, $method);
+        if (!$matchedRoute){
+            $this->redirectToErrorPage('Erreur 404: page introuvable');
+        }
         $route = $matchedRoute[0];
         $params = $matchedRoute[1];
 
         $isAuthorized =  $this->verifyGuards($route);
         if (!$isAuthorized){
-            $route = $this->getErrorPageRoute();
+            $this->redirectToErrorPage("Vous n'êtes pas autorisé à consulter cette page");
         }
         $controllerClass = $route->getController();
         $_GET['currentPath'] = $route->getPath();
@@ -62,7 +62,7 @@ class Router
     /**
      * @param $action
      * @param $method
-     * @return array<Route, array<string>>
+     * @return array<Route, array<string>>|null
      */
     private function matchRoutes($action, $method){
         $params = [];
@@ -94,7 +94,7 @@ class Router
             }
         }
         if ($targetIndex === -1){
-            $route = $this->getErrorPageRoute();
+           return null;
         } else {
             $route = $this->routes[$targetIndex];
         }
@@ -116,10 +116,10 @@ class Router
         return true;
     }
 
-    /**
-     * @return Route
-     */
-    private function getErrorPageRoute() {
-        return isset($this->routes['errorPage']) ? $this->routes['errorPage'] : $this->routes[0];
+    private function redirectToErrorPage($message) {
+        $errorRoute = isset($this->routes['errorPage']) ? $this->routes['errorPage'] : $this->routes[0];;
+        $path = $errorRoute->getPath() === '' ? '/' : $errorRoute->getPath();
+        new RedirectResponse([$message], $path, false);
+
     }
 }

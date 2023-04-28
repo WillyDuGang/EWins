@@ -16,8 +16,7 @@
                 <h2>Connectez-vous</h2>
                 <p>Pas encore inscrit ? <a href="inscription"><u>Cliquez ici</u></a> !</p>
             </header>
-            <form action="">
-
+            <form method="POST" action=".">
                 <section class="formGroup">
                     <label for="email">Email</label>
                     <input type="text" id="email" name="email" required>
@@ -25,7 +24,7 @@
 
                 <section class="formGroup">
                     <label for="password">Mot de passe</label>
-                    <input type="text" id="password" name="password" required>
+                    <input type="password" id="password" name="password" required>
                 </section>
 
                 <button type="submit" class="submitButton">Connexion</button>

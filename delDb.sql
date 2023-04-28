@@ -1,3 +1,3 @@
-DROP TABLE IF EXISTS participer, rencontre, tournoi, sport, utilisateur;
+DROP TABLE IF EXISTS participate, `match`, tournament, sport, user;
 
 

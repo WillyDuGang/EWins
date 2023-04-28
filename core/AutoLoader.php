@@ -16,10 +16,10 @@ class AutoLoader
     private function getAllSubDir($sourceDirectory)
     {
         $directories = [$sourceDirectory];
-        foreach (scandir($sourceDirectory) as $fileName) {
+        foreach (@scandir($sourceDirectory) as $fileName) {
             if (in_array($fileName, ['.', '..'])) continue;
             $path = $sourceDirectory . '/' . $fileName;
-            if (!is_dir($path)) continue;
+            if (!@is_dir($path)) continue;
             $directories = array_merge($directories, $this->getAllSubDir($path));
         }
         return $directories;
@@ -36,9 +36,9 @@ class AutoLoader
             $this->getAllSubDir(__DIR__)
         );
         foreach ($directories as $directory) {
-            $files = scandir($directory);
+            $files = @scandir($directory);
             foreach ($files as $file) {
-                if (!is_dir($file)) {
+                if (!@is_dir($file)) {
                     if (substr($className . '.php', -strlen($file)) !== $file) {
                         continue;
                     }

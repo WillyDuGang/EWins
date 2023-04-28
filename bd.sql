@@ -1,68 +1,68 @@
-CREATE TABLE IF NOT EXISTS utilisateur
+CREATE TABLE IF NOT EXISTS user
 (
-    uid             INT,
-    courriel        VARCHAR(255) NOT NULL,
-    pseudo          VARCHAR(50)  NOT NULL,
-    nom             VARCHAR(50)  NOT NULL,
-    prenom          VARCHAR(50)  NOT NULL,
-    motDePasse      VARCHAR(255) NOT NULL,
-    urlPhoto        VARCHAR(100) NOT NULL,
-    estActif        BIT(1) DEFAULT 1,
-    estOrganisateur BIT(1) DEFAULT 0,
+    uid               INT,
+    email             VARCHAR(255) NOT NULL UNIQUE,
+    pseudo            VARCHAR(50)  NOT NULL UNIQUE,
+    name              VARCHAR(50)  NOT NULL,
+    firstName         VARCHAR(50)  NOT NULL,
+    password          VARCHAR(255) NOT NULL,
+    profilePictureUrl VARCHAR(100) NOT NULL,
+    isActive          BIT(1) DEFAULT 1,
+    isAdmin           BIT(1) DEFAULT 0,
     PRIMARY KEY (uid)
 );
 
 CREATE TABLE IF NOT EXISTS sport
 (
-    sid INT,
-    nom VARCHAR(50) NOT NULL,
+    sid  INT,
+    name VARCHAR(50) NOT NULL UNIQUE,
     PRIMARY KEY (sid)
 );
 
 
-CREATE TABLE IF NOT EXISTS tournoi
+CREATE TABLE IF NOT EXISTS tournament
 (
-    tid                INT,
-    nom                VARCHAR(50) NOT NULL,
-    PlacesDisponibles  INT                                                                  DEFAULT 2,
-    statut             ENUM ('ouvert', 'fermé', 'clôturé', 'généré', 'en-cours', 'terminé') DEFAULT 'ouvert',
-    estActif           BIT(1)                                                               DEFAULT 1,
-    dateTournoi        DATE        NOT NULL,
-    dateFinInscription DATE        NOT NULL,
-    sid                INT         NOT NULL,
-    uid                INT         NOT NULL,
+    tid                 INT,
+    name                VARCHAR(50) NOT NULL,
+    place               INT     DEFAULT 2,
+    status              TINYINT DEFAULT 0,
+    isActive            BIT(1)  DEFAULT 1,
+    startDate           DATE        NOT NULL,
+    endRegistrationDate DATE        NOT NULL,
+    sid                 INT         NOT NULL,
+    uid                 INT         NOT NULL,
     PRIMARY KEY (tid),
     FOREIGN KEY (sid) REFERENCES sport (sid),
-    FOREIGN KEY (uid) REFERENCES utilisateur (uid)
+    FOREIGN KEY (uid) REFERENCES user (uid)
 );
 
-CREATE TABLE IF NOT EXISTS rencontre
+CREATE TABLE IF NOT EXISTS `match`
 (
-    rid         INT,
-    joueur1     INT NOT NULL,
-    joueur2     INT NOT NULL,
-    scoreJ1     TINYINT DEFAULT 0,
-    scoreJ2     TINYINT DEFAULT 0,
-    vainqueur   INT,
-    rid_suivant INT,
-    tid         INT NOT NULL,
-    PRIMARY KEY (rid),
-    FOREIGN KEY (tid) REFERENCES tournoi (tid),
-    FOREIGN KEY (joueur1) REFERENCES utilisateur (uid),
-    FOREIGN KEY (joueur2) REFERENCES utilisateur (uid),
-    CHECK (vainqueur = joueur1 OR vainqueur = joueur2)
+    mid     INT,
+    player1 INT NOT NULL,
+    player2 INT NOT NULL,
+    score1  TINYINT DEFAULT 0,
+    score2  TINYINT DEFAULT 0,
+    winner  INT,
+    nextMid INT,
+    tid     INT NOT NULL,
+    PRIMARY KEY (mid),
+    FOREIGN KEY (tid) REFERENCES tournament (tid),
+    FOREIGN KEY (player1) REFERENCES user (uid),
+    FOREIGN KEY (player2) REFERENCES user (uid),
+    CHECK (winner = player1 OR winner = player2)
 );
 
-CREATE TABLE IF NOT EXISTS participer
+CREATE TABLE IF NOT EXISTS participate
 (
-    uid             INT  NOT NULL,
-    tid             INT  NOT NULL,
-    dateInscription DATE NOT NULL,
-    FOREIGN KEY (uid) REFERENCES utilisateur (uid),
-    FOREIGN KEY (tid) REFERENCES tournoi (tid)
+    uid  INT  NOT NULL,
+    tid  INT  NOT NULL,
+    date DATE NOT NULL,
+    FOREIGN KEY (uid) REFERENCES user (uid),
+    FOREIGN KEY (tid) REFERENCES tournament (tid)
 );
 
-INSERT INTO sport (sid, nom)
+INSERT INTO sport (sid, name)
 VALUES (0, 'Belote'),
        (1, 'Jeu d’échecs'),
        (2, 'Tennis'),

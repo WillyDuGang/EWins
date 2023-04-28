@@ -11,7 +11,7 @@ use src\controller\inc\Navbar;
     <link href="static/css/style.css" rel="stylesheet"/>
     <meta name="keywords"
           content="eWins, Tournoi en ligne, Belote, Jeu d'échecs, Tennis, Ping-Pong, FIFA, Compétitions en ligne, Stratégie de jeu, Plateforme de jeu en ligne, Défis en ligne, Belote en ligne, Jeux de cartes en ligne, Sports en ligne, Jeux vidéo en ligne">
-    <script>
+    <!--<script>
         setTimeout(() => {
             let scroll = localStorage.getItem('scroll');
             if (scroll)
@@ -25,7 +25,7 @@ use src\controller\inc\Navbar;
             localStorage.setItem('scroll', sTop.toString());
             location.reload();
         }, 3000);
-    </script>
+    </script>!-->
 </head>
 
 <body>
@@ -39,5 +39,11 @@ use src\controller\inc\Navbar;
 
     <?php require('inc/footer.inc.php') ?>
 </div>
+
+<?php
+if (isset($_GET['messages']) ||isset($_GET['errorMessages'])){
+    require('inc/alert.inc.php');
+}
+?>
 </body>
 </html>

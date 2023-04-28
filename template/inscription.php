@@ -16,41 +16,41 @@
             <h2>Complétez le formulaire pour vous inscrire</h2>
             <p>Déjà inscrit ? <a href="connexion"><u>Cliquez ici</u></a> !</p>
         </header>
-        <form action="" class="registerForm">
+        <form method="post" class="registerForm"  enctype="multipart/form-data">
 
             <section class="formGroup">
                 <label for="name">Nom</label>
-                <input type="text" id="name" name="name" required>
+                <input type="text" id="name" name="name" maxlength="50" required value="<?= isset($_GET['name']) ? $_GET['name'] : '' ?>">
             </section>
 
             <section class="formGroup">
                 <label for="firstName">Prénom</label>
-                <input type="text" id="firstName" name="firstName" required>
+                <input type="text" id="firstName" name="firstName" maxlength="50" required value="<?= isset($_GET['firstName']) ? $_GET['firstName'] : '' ?>">
             </section>
 
             <section class="formGroup">
                 <label for="email">Email</label>
-                <input type="text" id="email" name="email" required>
+                <input type="email" id="email" name="email" maxlength="255" required value="<?= isset($_GET['email']) ? $_GET['email'] : '' ?>">
             </section>
 
             <section class="formGroup">
                 <label for="pseudo">Pseudo</label>
-                <input type="text" id="pseudo" name="pseudo" required>
+                <input type="text" id="pseudo" name="pseudo" maxlength="50" required value="<?= isset($_GET['pseudo']) ? $_GET['pseudo'] : '' ?>">
             </section>
 
             <section class="formGroup">
                 <label for="password">Mot de passe</label>
-                <input type="text" id="password" name="password" required>
+                <input type="password" id="password" name="password" minlength="8" maxlength="255" required>
             </section>
 
             <section class="formGroup">
                 <label for="confirmPassword">Confirmez votre mot de passe</label>
-                <input type="text" id="confirmPassword" name="confirmPassword" required>
+                <input type="password" id="confirmPassword" name="confirmPassword" minlength="8" maxlength="255" required>
             </section>
 
             <section class="formGroup">
                 <label for="profilePicture">Photo de profil</label>
-                <input type="file" id="profilePicture" name="profilePicture" required>
+                <input type="file" id="profilePicture" name="profilePicture" accept=".jpg, .png" required>
             </section>
             <button type="submit" class="submitButton">Inscription</button>
         </form>

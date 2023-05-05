@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS user
 (
-    uid               INT,
+    uid               INT  AUTO_INCREMENT,
     email             VARCHAR(255) NOT NULL UNIQUE,
     pseudo            VARCHAR(50)  NOT NULL UNIQUE,
     name              VARCHAR(50)  NOT NULL,
@@ -15,7 +15,7 @@ CREATE TABLE IF NOT EXISTS user
 
 CREATE TABLE IF NOT EXISTS sport
 (
-    sid  INT,
+    sid  INT AUTO_INCREMENT,
     name VARCHAR(50) NOT NULL UNIQUE,
     PRIMARY KEY (sid)
 );
@@ -23,7 +23,7 @@ CREATE TABLE IF NOT EXISTS sport
 
 CREATE TABLE IF NOT EXISTS tournament
 (
-    tid                 INT,
+    tid                 INT AUTO_INCREMENT,
     name                VARCHAR(50) NOT NULL,
     place               INT     DEFAULT 2,
     status              TINYINT DEFAULT 0,
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS tournament
 
 CREATE TABLE IF NOT EXISTS `match`
 (
-    mid     INT,
+    mid     INT AUTO_INCREMENT,
     player1 INT NOT NULL,
     player2 INT NOT NULL,
     score1  TINYINT DEFAULT 0,

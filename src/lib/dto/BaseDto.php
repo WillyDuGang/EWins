@@ -43,4 +43,20 @@ abstract class BaseDto
     {
         return isset($this->data[$key]) ? $this->data[$key] : null;
     }
+
+    /**
+     * @param string[] $keys
+     * @return array
+     */
+    public function toArray($keys = []){
+        $array = [];
+        $keys = empty($keys) ? array_keys($this->data) : $keys;
+        foreach ($keys as $key){
+            $value = $this->get($key);
+            if ($value){
+                $array[$key] = $value;
+            }
+        }
+        return $array;
+    }
 }

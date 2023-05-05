@@ -80,7 +80,8 @@ class Router
             $isMatch = true;
             foreach ($routePathExploded as $nameIndex => $name){
                 if($name === strtolower($actionExploded[$nameIndex])) continue;
-                if (substr_compare($name, ':', 0, 1) === 0){
+                $arrayName = str_split($name);
+                if ($arrayName[0] === ':'){
                     $params[substr($name, 1)] = $actionExploded[$nameIndex];
                     continue;
                 }

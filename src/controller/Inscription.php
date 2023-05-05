@@ -37,7 +37,7 @@ class Inscription implements IController
                 ['Le mot de passe ne correspond pas au mot de passe de confirmation.'],
                 '',
                 false,
-                Format::dtoToArray($registerDto, self::RETURN_FIELD)
+                $registerDto->toArray(self::RETURN_FIELD)
             );
         }
         if ($errors = $this->matchPassword($registerDto->get('password'))) {
@@ -45,7 +45,7 @@ class Inscription implements IController
                 $errors,
                 '',
                 false,
-                Format::dtoToArray($registerDto, self::RETURN_FIELD)
+                $registerDto->toArray(self::RETURN_FIELD)
             );
         }
         $userRepository = new UserRepository();
@@ -54,10 +54,10 @@ class Inscription implements IController
                 ["L'email ou le pseudo est déjà utilisé."],
                 '',
                 false,
-                Format::dtoToArray($registerDto, self::RETURN_FIELD)
+                $registerDto->toArray(self::RETURN_FIELD)
             );
         }
-        new RedirectResponse(['Votre compte a été crée avec succés. Connectez-vous pour continuer.'], '/connection');
+        new RedirectResponse(['Votre compte a été crée avec succés. Connectez-vous pour continuer.'], '/connexion');
     }
 
 

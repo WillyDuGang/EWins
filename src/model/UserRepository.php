@@ -3,6 +3,7 @@
 namespace src\lib\model;
 
 use src\lib\dto\RegisterDto;
+use src\lib\util\Image;
 use src\lib\util\StringUtil;
 
 class UserRepository extends BaseRepository
@@ -38,10 +39,13 @@ class UserRepository extends BaseRepository
         $uniqImageName = StringUtil::generateUniqueString($imageNameInfo['filename']) . '.' . $imageNameInfo['extension'];
 
         $statement->bindValue(':profilePictureUrl', $uniqImageName);
-        if ($statement->execute() && $statement->rowCount() == 1) {
-            move_uploaded_file($image['tmp_name'], 'upload/profilePicture/' . $uniqImageName);
-            return true;
-        }
+        try {
+            if ($statement->execute() && $statement->rowCount() == 1) {
+                $newPath = 'upload/profilePicture/' . $uniqImageName;
+                Image::cropImageToSquare($image['tmp_name'], $newPath);
+                return true;
+            }
+        } catch (\PDOException $e){ }
         return false;
     }
 

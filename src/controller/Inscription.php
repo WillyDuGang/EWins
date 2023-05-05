@@ -3,7 +3,9 @@
 namespace src\controller;
 
 use core\router\Router;
+use src\lib\database\Database;
 use src\lib\dto\RegisterDto;
+use src\lib\model\UserRepository;
 use src\lib\response\RedirectResponse;
 use src\lib\util\Format;
 
@@ -46,7 +48,16 @@ class Inscription implements IController
                 Format::dtoToArray($registerDto, self::RETURN_FIELD)
             );
         }
-        new RedirectResponse(['hello']);
+        $userRepository = new UserRepository();
+        if (!$userRepository->registerUser($registerDto)){
+            new RedirectResponse(
+                ["L'email ou le pseudo est déjà utilisé."],
+                '',
+                false,
+                Format::dtoToArray($registerDto, self::RETURN_FIELD)
+            );
+        }
+        new RedirectResponse(['Votre compte a été crée avec succés. Connectez-vous pour continuer.'], '/connection');
     }
 
 

@@ -18,9 +18,9 @@
                 background-color: <?= $isSuccess ? 'green' : 'red' ?>;
                 ">
             <?php if ($isSuccess): ?>
-                <img src="/static/image/icon/checked.svg" alt="success">
+                <img src="static/image/icon/checked.svg" alt="success">
             <?php else: ?>
-                <img src="/static/image/icon/warning.svg" alt="failure">
+                <img src="static/image/icon/warning.svg" alt="failure">
             <?php endif; ?>
             <p><?= $message ?></p>
         </article>

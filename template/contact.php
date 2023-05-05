@@ -4,12 +4,12 @@
         <h1>
             Contact
         </h1>
-        <img src="../static/image/icon/contact.svg" alt="contact icon">
+        <img src="static/image/icon/contact.svg" alt="contact icon">
     </header>
 
     <section class="imageFormSection">
         <section class="imageSection">
-            <img src="../static/image/illustration/contact.svg" alt="contact illustration">
+            <img src="static/image/illustration/contact.svg" alt="contact illustration">
         </section>
         <section class="formSection">
             <header>

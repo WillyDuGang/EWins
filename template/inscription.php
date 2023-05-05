@@ -4,12 +4,12 @@
     <h1>
         Inscription
     </h1>
-    <img src="../static/image/icon/register.svg" alt="inscription icon">
+    <img src="static/image/icon/register.svg" alt="inscription icon">
 </header>
 
 <section class="imageFormSection">
     <section class="imageSection">
-        <img src="../static/image/illustration/welcome.svg" alt="bienvenue">
+        <img src="static/image/illustration/welcome.svg" alt="bienvenue">
     </section>
     <section class="formSection">
         <header>

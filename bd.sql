@@ -6,6 +6,7 @@ CREATE TABLE IF NOT EXISTS user
     name              VARCHAR(50)  NOT NULL,
     firstName         VARCHAR(50)  NOT NULL,
     password          VARCHAR(255) NOT NULL,
+    salt          VARCHAR(255) NOT NULL,
     profilePictureUrl VARCHAR(100) NOT NULL,
     isActive          BIT(1) DEFAULT 1,
     isAdmin           BIT(1) DEFAULT 0,

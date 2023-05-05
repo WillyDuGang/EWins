@@ -1,7 +1,7 @@
 <article class="tournamentArticle">
     <a href="">
         <section class="tournamentImage">
-            <img src="../../static/image/tournament/tennis.webp" alt="">
+            <img src="static/image/tournament/tennis.webp" alt="">
         </section>
         <header>
             <section class="left">

@@ -13,3 +13,18 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php?action=$1 [L,QSA]
 </IfModule>
+
+<Files "config.json">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "bd.sql">
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files "delDb.sql">
+    Order allow,deny
+    Deny from all
+</Files>

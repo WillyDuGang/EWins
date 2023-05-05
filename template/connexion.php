@@ -4,12 +4,12 @@
         <h1>
             Connexion
         </h1>
-        <img src="../static/image/icon/login.svg" alt="connexion icon">
+        <img src="static/image/icon/login.svg" alt="connexion icon">
     </header>
 
     <section class="imageFormSection">
         <section class="imageSection">
-            <img src="../static/image/illustration/tennis.webp" alt="Tennis illustration">
+            <img src="static/image/illustration/tennis.webp" alt="Tennis illustration">
         </section>
         <section class="formSection">
             <header>
